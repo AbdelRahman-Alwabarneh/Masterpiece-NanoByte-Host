@@ -12,6 +12,7 @@ html {
   font-size: 10px;
 }
 .container {
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +124,7 @@ html {
   color: white;
 }
 .Welcome_Login {
-  width: 30%;
+  /* width: 40%; */
   height: 100vh;
   background: linear-gradient(180deg, #182764 0%, #1a318c 100%);
   border-radius: 10px;
@@ -155,6 +156,60 @@ html {
   margin-top: 30px;
 }
 .Welcome_Login_Img_dedicated {
-  width: 50vh;
-  height: 50vh;
+  height: 80%;
+  width: 80%;
+}
+@media (max-width: 860px) {
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+  .Welcome_Login {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    width: 100%;
+  }
+  #LogIn_div {
+    width: auto;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #Form_LogIn {
+    width: 350px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 350px) {
+  body {
+    width: 100%;
+  }
+  #LogIn_div {
+    width: auto;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #Form_LogIn {
+    width: 300px;
+  }
+  .container {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-height: 700px) {
+  #LogIn_div {
+    height: auto;
+  }
+  .Welcome_Login_Img_dedicated {
+    height: 60%;
+    width: 60%;
+  }
 }
