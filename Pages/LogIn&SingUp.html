@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسجيل الدخول - NanoByte</title>
+    <link
+      rel="shortcut icon"
+      href="../Photo/android-chrome-512x512.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../style/LogIn&SingUp.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class=""></div>
+      <div id="LogIn_div">
+        <h1 class="LogIn_title_h1">تسجيل الدخول</h1>
+        <div class="Form_LogIn_div">
+          <form action="" id="Form_LogIn">
+            <!-- الأيميل -->
+            <label for="Email" class="Email">البريد الألكتروني</label>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="ادخل بريدك الألكتروني"
+            />
+            <!-- الباسورد -->
+            <label for="Password" class="Password">كلمة المرور</label>
+            <input
+              type="password"
+              name="Password"
+              id="Password"
+              placeholder="ادخل كلمة المرور"
+            />
+            <!-- نسيت كلمة المرور -->
+            <a href="#" id="Forgot_Password">هل نسيت كلمة المرور ؟</a>
+            <!-- تذكرني -->
+            <div class="Remember_me_div">
+              <label for="Remember_me" class="Remember_me">تذكرني</label>
+              <input type="checkbox" name="Remember_me" id="Remember_me" />
+            </div>
+            <!-- تسجيل -->
+            <input type="submit" value="دخــــول" id="Registration" />
+          </form>
+        </div>
+        <div class="Quick_entry_div">
+          <p class="Quick_entry_paragraph"><span>تسجيل الدخول السريع</span></p>
+          <div class="icon_Login_div">
+            <a href="#"><i class="google fa-brands fa-google"></i></a>
+            <a href="#"
+              ><i class="facebook fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+          </div>
+          <div class="new_account">
+            ليس لديك حساب حتى الآن ؟ <a href="">إنشاء حساب جديد</a>
+          </div>
+        </div>
+      </div>
+      <div class="Welcome_Login">
+        <div class="Logo_Login">
+          <p class="paragraph_logo">نانوبايت هوست</p>
+          <a href="#"
+            ><img
+              class="Logo_NanoByte"
+              src="../Photo/logolit-removebg-preview.png"
+              alt="Logo NanoByte"
+          /></a>
+        </div>
+        <div class="Welcome_dedicated_logIn">
+          <p class="Welcome_Login_paragraph">!أهلاً وسهلاً بك من جديد</p>
+          <img class="Welcome_Login_Img_dedicated" src="../Photo/dedicated_server_logIn.png" alt="dedicated server logIn">
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/LogIn&SingUp.js"></script>
+  </body>
+</html>
